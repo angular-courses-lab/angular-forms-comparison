@@ -5,6 +5,8 @@ import { ReactiveSimpleCheckboxComponent } from './modules/reactive/reactive-sim
 import { TemplateSimpleCheckboxComponent } from './modules/template/template-simple-checkbox.ng';
 import { ReactiveSimpleRadioButtonsComponent } from './modules/reactive/reactive-simple-radio-buttons.ng';
 import { TemplateSimpleRadioButtonsComponent } from './modules/template/template-simple-radio-buttons.ng';
+import { ReactiveSimpleSelectComponent } from './modules/reactive/reactive-simple-select.ng';
+import { TemplateSimpleSelectComponent } from './modules/template/template-simple-select.ng';
 
 @Component({
   selector: 'app-root',
@@ -15,6 +17,8 @@ import { TemplateSimpleRadioButtonsComponent } from './modules/template/template
     TemplateSimpleCheckboxComponent,
     ReactiveSimpleRadioButtonsComponent,
     TemplateSimpleRadioButtonsComponent,
+    ReactiveSimpleSelectComponent,
+    TemplateSimpleSelectComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
