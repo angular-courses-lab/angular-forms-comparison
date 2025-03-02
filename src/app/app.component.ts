@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { TemplateDashboardComponent } from './modules/template/template-dashboard.ng';
-import { ReactiveDashboardComponent } from './modules/reactive/reactive-dashboard.ng';
+import { TemplateSimpleInputComponent } from './modules/template/template-simle-input.ng';
+import { ReactiveSimpleInputComponent } from './modules/reactive/reactive-simple-input.ng';
 
 @Component({
   selector: 'app-root',
-  imports: [TemplateDashboardComponent, ReactiveDashboardComponent],
+  imports: [TemplateSimpleInputComponent, ReactiveSimpleInputComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
