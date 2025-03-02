@@ -7,6 +7,8 @@ import { ReactiveSimpleRadioButtonsComponent } from './modules/reactive/reactive
 import { TemplateSimpleRadioButtonsComponent } from './modules/template/template-simple-radio-buttons.ng';
 import { ReactiveSimpleSelectComponent } from './modules/reactive/reactive-simple-select.ng';
 import { TemplateSimpleSelectComponent } from './modules/template/template-simple-select.ng';
+import { ReactiveSimpleDatalistComponent } from './modules/reactive/reactive-simple-datalist.ng';
+import { TemplateSimpleDatalistComponent } from './modules/template/template-simple-datalist.ng';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +21,8 @@ import { TemplateSimpleSelectComponent } from './modules/template/template-simpl
     TemplateSimpleRadioButtonsComponent,
     ReactiveSimpleSelectComponent,
     TemplateSimpleSelectComponent,
+    ReactiveSimpleDatalistComponent,
+    TemplateSimpleDatalistComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
