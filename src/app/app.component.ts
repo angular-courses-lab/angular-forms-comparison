@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
-import { TemplateSimpleInputComponent } from './modules/template/template-simle-input.ng';
+import { TemplateSimpleInputComponent } from './modules/template/template-simple-input.ng';
 import { ReactiveSimpleInputComponent } from './modules/reactive/reactive-simple-input.ng';
 import { ReactiveSimpleCheckboxComponent } from './modules/reactive/reactive-simple-checkbox.ng';
 import { TemplateSimpleCheckboxComponent } from './modules/template/template-simple-checkbox.ng';
+import { ReactiveSimpleRadioButtonsComponent } from './modules/reactive/reactive-simple-radio-buttons.ng';
+import { TemplateSimpleRadioButtonsComponent } from './modules/template/template-simple-radio-buttons.ng';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +13,8 @@ import { TemplateSimpleCheckboxComponent } from './modules/template/template-sim
     ReactiveSimpleInputComponent,
     ReactiveSimpleCheckboxComponent,
     TemplateSimpleCheckboxComponent,
+    ReactiveSimpleRadioButtonsComponent,
+    TemplateSimpleRadioButtonsComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
